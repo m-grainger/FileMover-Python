@@ -1,7 +1,7 @@
 import shutil, glob, os
 
 #Prints all text files in directory
-directory_txt = r"C:\\Users\\Student\\Desktop\\A\\*.txt"
+directory_txt = "C:\\Users\\Student\\Desktop\\A\\*.txt"
 for path in glob.glob(directory_txt):
     print( path )
     
