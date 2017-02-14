@@ -12,3 +12,5 @@ destinationpath = 'C:/Users/Student/Desktop/B/'
 for files in source:
     if files.endswith('.txt'):
         shutil.move(os.path.join('C:/Users/Student/Desktop/A/',files), os.path.join('C:/Users/Student/Desktop/B/',files))
+    else:
+        print('No files with .txt extension to move!')
